@@ -5,14 +5,13 @@
 }
 
 body{
-  padding: 20px;
-  border: 1px solid #cacaca;
+  padding: 1% 10%;
 }
 
 .headerBg1{
   width: 100%;
-  height: 20vh;
   background-color: #565656;
+  height: 25vh;
   padding-left: 45%;
 }
 
@@ -48,19 +47,19 @@ header hr{
   width: 200px;
   height: 200px;
   position: relative;
-  top: 15px;
+  top: 1rem;
+  border: 5px dotted #F8BE27;
+  padding: 1px;
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
   -ms-border-radius: 100px;
   -o-border-radius: 100px;
-  border: 3px dotted #F8BE27;
-  padding: 1px;
 }
 
 .userName{
   position: relative;
   left: -60px;
-  top: -18px;
+  top: -0.6rem;
   background-color: #F8BE27;
   font-size: 41px;
   font-family: Arial, Helvetica, sans-serif;
@@ -114,7 +113,7 @@ header hr{
 
 .heading1{
   width: 100%;
-  padding: 12px 0;
+  padding: 0.4rem 0;
 }
 
 .headingImage{
@@ -141,4 +140,96 @@ header hr{
 
 .skillsTable input {
   width: 100%;
+}
+
+/*********************************input range picker**********************************/
+input[type=range] {
+  height: 5px;
+  -webkit-appearance: none;
+  margin: 10px 0;
+  width: 100%;
+}
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 8px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 0px 0px 0px #000000;
+  background: rgb(248,190,39);
+  background: linear-gradient(90deg, rgba(248,190,39,1) 50%, rgba(255,255,255,1) 100%);
+  border-radius: 8px;
+  border: 0px solid #000000;
+}
+input[type=range]::-webkit-slider-thumb {
+  box-shadow: 1px 1px 1px #000000;
+  border: 1px solid #000000;
+  height: 8px;
+  width: 8px;
+  border-radius: 7px;
+  background: #FFFFFF;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -0.5px;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #F8BE27;
+}
+input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 8px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 0px 0px 0px #000000;
+  background: #F8BE27;
+  border-radius: 8px;
+  border: 0px solid #000000;
+}
+input[type=range]::-moz-range-thumb {
+  box-shadow: 1px 1px 1px #000000;
+  border: 1px solid #000000;
+  height: 8px;
+  width: 8px;
+  border-radius: 7px;
+  background: #FFFFFF;
+  cursor: pointer;
+}
+input[type=range]::-ms-track {
+  width: 100%;
+  height: 8px;
+  cursor: pointer;
+  animate: 0.2s;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+  background: #F8BE27;
+  border: 0px solid #000000;
+  border-radius: 16px;
+  box-shadow: 0px 0px 0px #000000;
+}
+input[type=range]::-ms-fill-upper {
+  background: #F8BE27;
+  border: 0px solid #000000;
+  border-radius: 16px;
+  box-shadow: 0px 0px 0px #000000;
+}
+input[type=range]::-ms-thumb {
+  margin-top: 1px;
+  box-shadow: 1px 1px 1px #000000;
+  border: 1px solid #000000;
+  height: 8px;
+  width: 8px;
+  border-radius: 7px;
+  background: #FFFFFF;
+  cursor: pointer;
+}
+input[type=range]:focus::-ms-fill-lower {
+  background: #F8BE27;
+}
+input[type=range]:focus::-ms-fill-upper {
+  background: #F8BE27;
 }
