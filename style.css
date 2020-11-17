@@ -53,6 +53,8 @@ header hr{
   -moz-border-radius: 100px;
   -ms-border-radius: 100px;
   -o-border-radius: 100px;
+  border: 3px dotted #F8BE27;
+  padding: 1px;
 }
 
 .userName{
