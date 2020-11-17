@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  padding: 20px;
+  border: 1px solid #cacaca;
+}
+
+.headerBg1{
+  width: 100%;
+  height: 20vh;
+  background-color: #565656;
+  padding-top: 10px;
+}
+
+.headerBg2{
+  width: 100%;
+  height: 4vh;
+  background-color: #EEEEEE;
+}
+
+.headerBg3{
+  width: 100%;
+  height: 3vh;
+  background-color: #565656;
+}
+
+.contactDetails{
+  padding: 13px 0px 5px 30%;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  color: #767676;
+}
+
+header hr{
+  border: 1px solid#cacaca;
+}
+
+.userImage{
+  background-image: url('./images/user.jpg');
+  background-repeat: no-repeat;
+  border-radius: 75px;
+  width: 125px;
+  height: 125px;
+  margin-left:45%;
+  -webkit-border-radius: 75px;
+  -moz-border-radius: 75px;
+  -ms-border-radius: 75px;
+  -o-border-radius: 75px;
+}
+
+/******************************************************************Resume Body*********************************************************************************/
+.fullBody{
+  width: 100%;
+  height: 65vh;
+}
+
+.bodyHalf1{
+  width:48%;
+  display: inline-block;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+/* .bodyHalf2{
+  width: 1%;
+  display: inline-block;
+  padding-top: 10px;
+}
+
+.v1{
+  border-left: 1px solid #767676;
+  height: 100px;
+  box-sizing: border-box;
+} */
+
+.bodyHalf3{
+  width:48%;
+  display: inline-block;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+.heading1{
+  width: 100%;
+}
+
+.headingImage{
+  display: inline-block;
+  font-size: 30px;
+}
+
+.headingTitle{
+  display: inline-block;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #767676;
+  padding-left: 10px;
+}
