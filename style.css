@@ -233,3 +233,9 @@ input[type=range]:focus::-ms-fill-lower {
 input[type=range]:focus::-ms-fill-upper {
   background: #F8BE27;
 }
+
+/************************************************************************************/
+
+.iconColor{
+  color: #F8BE27;
+}
