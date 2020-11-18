@@ -99,7 +99,7 @@ header hr{
 }
 
 .v1{
-  border-left: 1px solid #767676;
+  border-left: 2px solid #cacaca;
   height: 80vh;
   box-sizing: border-box;
 }
