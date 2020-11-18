@@ -84,28 +84,30 @@ header hr{
 }
 
 .bodyHalf1{
-  width:48%;
-  display: inline-block;
+  width:49%;
+  display: inline;
+  float: left;
   padding: 10px 20px;
   box-sizing: border-box;
   height: auto;
 }
-
-/* .bodyHalf2{
+ .bodyHalf2{
   width: 1%;
-  display: inline-block;
+  display: inline;
+  float: left;
   padding-top: 10px;
 }
 
 .v1{
   border-left: 1px solid #767676;
-  height: 100px;
+  height: 80vh;
   box-sizing: border-box;
-} */
+}
 
 .bodyHalf3{
-  width:48%;
-  display: inline-block;
+  width:49%;
+  display: inline;
+  float: left;
   padding: 10px 20px;
   box-sizing: border-box;
   height: auto;
